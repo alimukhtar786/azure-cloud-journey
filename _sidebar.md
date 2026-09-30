@@ -1,20 +1,17 @@
-<!-- Profile Image Section Header -->
-<div class="profile-block">
+<!-- Tech Profile Frame -->
+<div class="tech-profile">
   <img src="profile.jpg" alt="Ali Mukhtar">
-  <div class="profile-title">Ali Mukhtar</div>
-  <div class="profile-subtitle">Systems & Cloud Administrator</div>
+  <div class="tech-name">>_ Ali Mukhtar</div>
+  <div class="tech-status">SYSTEMS ACTIVE</div>
 </div>
 
 - **Dashboard**
-  - [Executive Overview](README.md)
+  - [Root Dashboard](README.md)
 
-- **AZ-104 Cloud Administration**
-  - [Week 1: Subscriptions & RBAC](AZ-104-Cloud-Administration-Labs/README.md)
-  - [Week 2: Cloud Virtual Networks](AZ-104-Cloud-Administration-Labs/week-02.md)
+- **Technical Journals**
+  - [AZ-104 Admin Tracking](AZ-104-Cloud-Administration-Labs/README.md)
+  - [Terraform IaC Labs](terraform/%20week-01/README.md)
 
-- **Infrastructure as Code**
-  - [Terraform Deployments](terraform/%20week-01/README.md)
-
-- **Identity & Compliance**
-  - [Core Tech Credentials](certifications.md)
-  - [German Integration Log](german-language.md)
+- **Identity & Records**
+  - [Core Credentials](certifications.md)
+  - [Goethe B1 Integration](german-language.md)

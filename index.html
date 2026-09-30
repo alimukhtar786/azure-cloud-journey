@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Ali Mukhtar | Systems & Cloud Infrastructure Portfolio</title>
+  <title>Ali Mukhtar | Systems & Cloud Infrastructure Hub</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   
@@ -11,25 +11,25 @@
   
   <style>
     :root {
-      --theme-color: #0b5ed7; /* Professional Slate Blue */
+      --theme-color: #0a66c2; /* Authentic LinkedIn Corporate Blue */
       --base-font-size: 15px;
     }
     body {
-      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
-      color: #212529;
-      background-color: #ffffff;
-      line-height: 1.6;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+      color: #191919;
+      background-color: #f3f2ef; /* LinkedIn Soft Gray Background */
+      line-height: 1.5;
     }
     .sidebar {
-      background-color: #f8f9fa !important;
+      background-color: #ffffff !important;
       border-right: 1px solid #dee2e6;
     }
     .markdown-section {
-      max-width: 850px;
-      padding: 30px 15px;
+      max-width: 800px;
+      padding: 20px 15px 40px 15px;
     }
     
-    /* Sidebar Profile Card Layout */
+    /* LinkedIn Style Sidebar Header Card */
     .profile-card {
       text-align: center;
       padding: 25px 15px;
@@ -37,151 +37,150 @@
       background: #ffffff;
     }
     .profile-card img {
-      width: 100px;
-      height: 100px;
+      width: 90px;
+      height: 90px;
       border-radius: 50%;
-      border: 3px solid #0b5ed7;
+      border: 2px solid #0a66c2;
       object-fit: cover;
     }
     .profile-card h1 {
       font-size: 16px;
-      font-weight: 700;
-      color: #1a1f2c;
-      margin: 12px 0 4px 0;
+      font-weight: 600;
+      color: #000000;
+      margin: 10px 0 2px 0;
     }
     .profile-card p {
       font-size: 12px;
-      color: #6c757d;
+      color: #666666;
       margin: 0;
-      font-weight: 500;
-    }
-    
-    /* Executive Metric Overview Grid */
-    .info-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-      gap: 15px;
-      margin: 25px 0;
-    }
-    .info-tile {
-      background: #f8f9fa;
-      border: 1px solid #e9ecef;
-      border-radius: 6px;
-      padding: 15px;
-      text-align: center;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.02);
-    }
-    .info-tile .value {
-      font-size: 18px;
-      font-weight: 700;
-      color: #0b5ed7;
-    }
-    .info-tile .label {
-      font-size: 11px;
-      color: #6c757d;
-      text-transform: uppercase;
-      font-weight: 600;
-      margin-top: 5px;
-      letter-spacing: 0.5px;
+      font-weight: 400;
     }
 
-    /* Professional Experience Highlights */
-    .job-card {
-      border-left: 3px solid #0b5ed7;
-      padding-left: 20px;
-      margin: 25px 0;
+    /* LinkedIn Card Component Structure */
+    .linkedin-card {
+      background: #ffffff;
+      border: 1px solid #e0e0e0;
+      border-radius: 8px;
+      padding: 24px;
+      margin-bottom: 16px;
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.01), 0 2px 4px rgba(0,0,0,0.02);
     }
-    .job-header {
+    .linkedin-card h2 {
+      font-size: 20px;
+      font-weight: 600;
+      color: #000000;
+      margin-top: 0;
+      margin-bottom: 16px;
+      border: none;
+      padding: 0;
+    }
+    
+    /* Profile Summary Grid Info */
+    .summary-badge-row {
       display: flex;
-      justify-content: space-between;
-      align-items: baseline;
+      gap: 12px;
       flex-wrap: wrap;
       margin-bottom: 8px;
     }
-    .job-title {
-      font-size: 17px;
-      font-weight: 700;
-      color: #1a1f2c;
-    }
-    .job-company {
-      font-size: 14px;
+    .summary-badge-pill {
+      background: #eef3f8;
+      color: #0a66c2;
+      font-size: 12px;
       font-weight: 600;
-      color: #495057;
-    }
-    .job-date {
-      font-size: 13px;
-      color: #6c757d;
-      font-weight: 500;
+      padding: 6px 12px;
+      border-radius: 16px;
     }
 
-    /* Clean Acclaim-Style Stationary Badge Showcase Container Grid */
-    .badge-container-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      gap: 15px;
-      margin: 20px 0;
-    }
-    .acclaim-badge-card {
-      background: #ffffff;
-      border: 1px solid #dee2e6;
-      border-radius: 8px;
-      padding: 18px 12px;
-      text-align: center;
-      transition: transform 0.2s, box-shadow 0.2s;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.04);
+    /* Chronological Job Block Lists */
+    .experience-item {
       display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      gap: 16px;
+      margin-bottom: 20px;
     }
-    .acclaim-badge-card:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 8px rgba(0,0,0,0.08);
-      border-color: #0b5ed7;
+    .experience-item:last-child {
+      margin-bottom: 0;
     }
-    .badge-visual-icon {
-      width: 44px;
-      height: 44px;
-      border-radius: 50%;
-      background: #eef2f7;
-      border: 2px solid #0b5ed7;
+    .company-logo-placeholder {
+      width: 48px;
+      height: 48px;
+      background: #f3f2ef;
+      border-radius: 4px;
       display: flex;
       align-items: center;
       justify-content: center;
-      font-weight: 800;
-      font-size: 11px;
-      color: #0b5ed7;
-      margin-bottom: 10px;
+      font-weight: bold;
+      color: #666666;
+      font-size: 14px;
+      flex-shrink: 0;
     }
-    .badge-main-title {
-      font-size: 13px;
-      font-weight: 700;
-      color: #212529;
-      margin-bottom: 3px;
-    }
-    .badge-subtitle-info {
-      font-size: 10px;
-      color: #6c757d;
+    .exp-details h3 {
+      font-size: 16px;
       font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.3px;
+      color: #000000;
+      margin: 0 0 4px 0;
+    }
+    .exp-company {
+      font-size: 14px;
+      color: #191919;
+      margin-bottom: 2px;
+    }
+    .exp-date {
+      font-size: 12px;
+      color: #666666;
+      margin-bottom: 8px;
+    }
+
+    /* LinkedIn Style Stationary Badge Grid */
+    .badge-grid-layout {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+      gap: 12px;
+    }
+    .badge-item-card {
+      border: 1px solid #e0e0e0;
+      border-radius: 6px;
+      padding: 16px;
+      display: flex;
+      gap: 16px;
+      align-items: center;
+      background: #ffffff;
+    }
+    .badge-graphic-frame {
+      width: 56px;
+      height: 56px;
+      flex-shrink: 0;
+    }
+    .badge-graphic-frame img {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+    .badge-meta h4 {
+      font-size: 14px;
+      font-weight: 600;
+      color: #000000;
+      margin: 0 0 2px 0;
+    }
+    .badge-meta p {
+      font-size: 12px;
+      color: #666666;
+      margin: 0;
     }
   </style>
 </head>
 <body>
-  <div id="app">Loading Portfolio Dashboard...</div>
-  
+  <div id="app">Loading Profile Dashboard...</div>
   <script>
     window.$docsify = {
-      name: 'Portfolio Hub',
+      name: 'Portfolio',
       repo: '',
       loadSidebar: true,
       subMaxLevel: 2,
       search: {
         maxAge: 86400000,
         paths: 'auto',
-        placeholder: 'Search technical journals...',
-        noData: 'No matches found',
+        placeholder: 'Search user portfolio...',
+        noData: 'No entries found',
         depth: 2
       }
     }

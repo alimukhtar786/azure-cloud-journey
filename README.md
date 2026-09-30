@@ -1,31 +1,52 @@
-# Azure Cloud & Identity Engineering Journey
-Welcome to my professional lab repository. This space documents my hands-on execution of Microsoft Azure Administration (AZ-104) and Identity Governance (SC-300), moving from infrastructure-as-code to zero-trust security architectures.
+# Systems & Cloud Infrastructure Engineering Journal
 
-## 🎯 Objective
-To master enterprise-grade cloud administration, resource governance, and identity security, building a production-ready portfolio for global engineering opportunities.
-
----
-
-## 📂 Repository Structure
-* `/terraform` - Infrastructure as Code deployments (VNets, Compute, Storage).
-* `/scripts` - PowerShell and automation scripts for identity and resource management.
-* `/security` - Conditional Access and governance configurations.
+> **Central Verification Hub & Professional Cloud Architecture Registry**  
+> 📜 **SCE Classification:** Specialist (Computer Programmer) | 🇩🇪 **German Language Level:** Goethe B1 Candidate
 
 ---
 
-## 📅 Progress Tracker
-
-### Phase 1: AZ-104 (Azure Administrator)
-* [ ] **Week 1:** Subscriptions, Resource Groups, RBAC, and Basic Terraform Deployment
-* [ ] **Week 2:** Virtual Networks, IP Addressing, and Subnets
-* [ ] **Week 3:** Network Security Groups (NSGs) and Routing
-* [ ] **Week 4:** Compute & Storage Management
-* [ ] **Week 5:** Governance, Policy, and Backup
-
-### Phase 2: SC-300 (Identity & Access Administrator)
-* [ ] **Week 6:** Microsoft Entra ID & User Lifecycle Management
-* [ ] **Week 7:** Conditional Access & Multi-Factor Authentication
-* [ ] **Week 8:** Privileged Identity Management (PIM) & Access Reviews
+### 🏛️ Official German Academic Recognition (Anabin Status)
+::: tip STRUCTURAL IMMIGRATION COMPLIANCE STATUS: VERIFIED (H+)
+My 4-year **Bachelor of Science in Information Technology (BS-IT)** degree from Allama Iqbal Open University is officially certified with **H+ Equivalence Status** by the **Zentralstelle für ausländisches Bildungswesen (ZAB)** (Ref: LN2024/48000-1). This formal validation establishes direct equivalence to German Bachelor-level technical standards, satisfying the statutory requirements for the direct **Academic Skilled Worker Visa** path.
+:::
 
 ---
-*Maintained by Ali Mukhtar ([alimukhtar786](https://github.com/alimukhtar786))*
+
+## 🛠️ Infrastructure Core Technology Stack
+
+| Domain Category | Technologies & Operational Competencies |
+| :--- | :--- |
+| **Public Cloud Administration** | **Microsoft Azure (AZ-104 Frameworks)**, VNet Peering Topology, Network Security Groups (NSGs), Target Route Tables, Azure Storage Account Lifecycle Policies. |
+| **Identity Governance & Security** | **Microsoft Entra ID (SC-300 Implementation)**, Microsoft Entra Connect Hybrid Sync, Zero-Trust Context-Aware Conditional Access Matrices, RBAC Models. |
+| **Modern Workplace Management** | **Microsoft Intune (MDM/MAM)**, Over-The-Air Compliance Hardening, Automated Win32 Silent Application Infrastructure Delivery. |
+| **Containers & Virtualization** | **Certified Kubernetes Administrator (CKA)**, Certified Kubernetes Application Developer (CKAD), Nutanix Hyperconverged Fabrics (**NCP-MCI**). |
+| **Systems & Support Operations** | Advanced Enterprise Server Administration (Windows Server 2022 / Linux Enterprise Environments), Tier-3 Enterprise Escalation Resolution. |
+
+---
+
+## 💼 Chronological Technical Enterprise Trajectory
+
+### **Senior Systems & Cloud Infrastructure Specialist** | *Enterprise Group (KSA)*  
+*July 2021 – Present*  
+* Formulate and deploy enterprise system administration matrices across hybrid enterprise environments, maintaining operational directory stability.
+* Architect and enforce context-aware Conditional Access policies to secure corporate perimeter portals.
+* Resolve complex Tier-3 storage system and server connectivity system flags.
+
+### **Manager – Procurement & IT Services** | *LCC Saudi Arabia (A Tech Mahindra Company)*  
+*February 2014 – February 2017*  
+* Supervised infrastructure design allocations across multi-layered complex network environments across the KSA and Africa regions.
+* Managed enterprise vendor performance frameworks, ensuring zero-downtime equipment provisions for remote project spaces.
+
+### **Senior System Administrator** | *LCC Saudi Arabia (A Tech Mahindra Company)*  
+*February 2010 – February 2014*  
+* Administered core Windows and UNIX production node groups, managing disaster recovery backups to guarantee 99.9% application uptime.
+
+### **Network & Systems Infrastructure Engineer** | *Citibank N.A. (Pakistan)*  
+*September 2005 – September 2009*  
+* Managed database deployments, core terminal applications, and network layouts within the banking sector’s Technology Infrastructure Department.
+
+---
+
+## 📂 Active Hands-On Lab Journals
+
+*Navigate through the interactive sidebar menu or use the global search bar to explore my step-by-step technical implementation logs, Terraform variable files, and identity deployment blueprints.*

@@ -19,6 +19,49 @@ Welcome to my verified engineering and cloud infrastructure registry. This space
 
 ---
 
+## 🏅 Professional Credentials & Technical Core
+
+<div class="badge-container-grid">
+  <div class="acclaim-badge-card">
+    <div class="badge-visual-icon">CNCN</div>
+    <div class="badge-main-title">CNCF CKA</div>
+    <div class="badge-subtitle-info">Kubernetes Admin<br>Verified • 2025</div>
+  </div>
+  <div class="acclaim-badge-card">
+    <div class="badge-visual-icon">CNCN</div>
+    <div class="badge-main-title">CNCF CKAD</div>
+    <div class="badge-subtitle-info">Application Dev<br>Verified • 2026</div>
+  </div>
+  <div class="acclaim-badge-card">
+    <div class="badge-visual-icon">NUTX</div>
+    <div class="badge-main-title">NCP-MCI</div>
+    <div class="badge-subtitle-info">Nutanix Multi-Cloud<br>Verified • 2026</div>
+  </div>
+  <div class="acclaim-badge-card">
+    <div class="badge-visual-icon">MSFT</div>
+    <div class="badge-main-title">Microsoft AZ-104</div>
+    <div class="badge-subtitle-info">Azure Administrator<br>Target Track • 2027</div>
+  </div>
+  <div class="acclaim-badge-card">
+    <div class="badge-visual-icon">MSFT</div>
+    <div class="badge-main-title">Microsoft SC-300</div>
+    <div class="badge-subtitle-info">Identity & Access<br>Target Track • 2028</div>
+  </div>
+  <div class="acclaim-badge-card">
+    <div class="badge-visual-icon">ZYCO</div>
+    <div class="badge-main-title">Zycoo ZCAE</div>
+    <div class="badge-subtitle-info">IP Telephony Expert<br>Verified • 2025</div>
+  </div>
+</div>
+
+<div style="display: flex; gap: 10px; flex-wrap: wrap; margin-top: 15px; justify-content: center;">
+  <span style="background: #f1f3f5; color: #6c757d; font-size: 10px; font-weight: 600; padding: 4px 8px; border-radius: 4px; text-transform: uppercase; border: 1px solid #dee2e6;">MCP (2001)</span>
+  <span style="background: #f1f3f5; color: #6c757d; font-size: 10px; font-weight: 600; padding: 4px 8px; border-radius: 4px; text-transform: uppercase; border: 1px solid #dee2e6;">Cisco CCNA (2012)</span>
+  <span style="background: #f1f3f5; color: #6c757d; font-size: 10px; font-weight: 600; padding: 4px 8px; border-radius: 4px; text-transform: uppercase; border: 1px solid #dee2e6;">Aruba ACMA (2012)</span>
+</div>
+
+---
+
 ## 🏛️ Academic Credentials & German Equivalency
 
 * **Degree:** Bachelor of Science in Information Technology (BS-IT) | 4-Year Program

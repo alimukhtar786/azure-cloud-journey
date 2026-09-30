@@ -39,8 +39,11 @@
 
 ### 💼 Technical Enterprise Roadmap
 
-* **Senior Systems & Cloud Infrastructure Specialist** | *Current Corporate Group (KSA)* `[2021 - Present]`
-  * Formulate secure directory sync states and implement zero-trust access perimeters via context-aware conditional access frameworks.
+**Software Support Engineer (Systems & Infrastructure Validation)** | *AESSCO (KSA)*  *July 2021 – Present*  
+* **Wireless Edge Infrastructure Engineering:** Direct Proof-of-Concept (POC) validation models, performance evaluations, and range optimization criteria for modern Wi-Fi 6 enterprise routing systems (e.g., Totolink X18/X30 architectures).
+* **Firmware Lifecycle & Systems Hardening:** Manage system firmware testing frameworks, evaluating device security posture patch compliance and executing hardware regression analysis prior to campus-wide deployments.
+* **Enterprise Infrastructure Operations (Secondment):** Dispatched to the *Channels by STC* corporate ecosystem as a Tier-2 Systems Support Engineer, triaging system infrastructure alerts and resolving enterprise ticketing queues.
+* **Technical Compliance Localization:** Conduct structural evaluations and technical translation of Request for Proposals (RFQs), engineering manuals, and statement of work configurations between Arabic and English to maintain project accuracy.
 * **Manager – Procurement & IT Services** | *LCC KSA (A Tech Mahindra Company)* `[2014 - 2017]`
   * Structured operational technology asset provisions and directed engineering network layouts across the KSA and Africa.
 * **Senior System Administrator** | *LCC KSA (A Tech Mahindra Company)* `[2010 - 2014]`

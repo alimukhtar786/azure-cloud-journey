@@ -2,68 +2,19 @@
 
 Welcome to my verified engineering and cloud infrastructure registry. This space documents my hands-on enterprise technical tracking, lab environments, and core competencies.
 
-<!-- COMPACT ENTERPRISE BADGE GRID ROW -->
-<div class="compact-badge-row">
-  <!-- Experience Stat -->
-  <div class="small-badge-box">
-    <div class="text-wrap">
-      <div class="title">15+ Years</div>
-      <div class="subtitle grey-sub">Systems Core</div>
-    </div>
+<div class="info-grid">
+  <div class="info-tile">
+    <div class="value">15+ Years</div>
+    <div class="label">Systems Experience</div>
   </div>
-  <!-- H+ Anabin Approval -->
-  <div class="small-badge-box">
-    <div class="text-wrap">
-      <div class="title">H+ Approved</div>
-      <div class="subtitle grey-sub">ZAB Germany</div>
-    </div>
+  <div class="info-tile">
+    <div class="value">H+ Status Approved</div>
+    <div class="label">ZAB Germany Verified</div>
   </div>
-  <!-- German Language -->
-  <div class="small-badge-box">
-    <div class="text-wrap">
-      <div class="title">Goethe B1</div>
-      <div class="subtitle grey-sub">Lang Track</div>
-    </div>
+  <div class="info-tile">
+    <div class="value">Goethe B1 Candidate</div>
+    <div class="label">Language Integration</div>
   </div>
-  <!-- CNCF CKA -->
-  <div class="small-badge-box">
-    <img src="https://credly.com" alt="CKA">
-    <div class="text-wrap">
-      <div class="title">CNCF CKA</div>
-      <div class="subtitle">Active 2025</div>
-    </div>
-  </div>
-  <!-- CNCF CKAD -->
-  <div class="small-badge-box">
-    <img src="https://credly.com" alt="CKAD">
-    <div class="text-wrap">
-      <div class="title">CNCF CKAD</div>
-      <div class="subtitle">Active 2026</div>
-    </div>
-  </div>
-  <!-- Cisco CCNA -->
-  <div class="small-badge-box">
-    <img src="https://credly.com" alt="CCNA">
-    <div class="text-wrap">
-      <div class="title">Cisco CCNA</div>
-      <div class="subtitle">Reg 2012</div>
-    </div>
-  </div>
-  <!-- Azure Admin -->
-  <div class="small-badge-box">
-    <img src="https://credly.com" alt="AZ-104">
-    <div class="text-wrap">
-      <div class="title">Azure Admin</div>
-      <div class="subtitle">Track 2027</div>
-    </div>
-  </div>
-</div>
-
-<div style="display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 25px; padding-left: 2px;">
-  <span style="background: #f1f3f5; color: #6c757d; font-size: 10px; font-weight: 600; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; border: 1px solid #dee2e6;">MCP (2001)</span>
-  <span style="background: #f1f3f5; color: #6c757d; font-size: 10px; font-weight: 600; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; border: 1px solid #dee2e6;">Aruba ACMA (2012)</span>
-  <span style="background: #f1f3f5; color: #6c757d; font-size: 10px; font-weight: 600; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; border: 1px solid #dee2e6;">Zycoo ZCAE (2025)</span>
-  <span style="background: #f1f3f5; color: #6c757d; font-size: 10px; font-weight: 600; padding: 3px 8px; border-radius: 4px; text-transform: uppercase; border: 1px solid #dee2e6;">Nutanix NCP-MCI (2026)</span>
 </div>
 
 ---
@@ -85,7 +36,7 @@ Welcome to my verified engineering and cloud infrastructure registry. This space
     <div class="job-date">July 2021 – Present</div>
   </div>
   <div class="job-company">Current Corporate Infrastructure Group | Riyadh, KSA</div>
-  <ul style="margin-top: 8px; padding-left: 20px; font-size: 14px;">
+  <ul style="margin-top: 10px; padding-left: 20px;">
     <li><strong>Wireless Edge Infrastructure Engineering:</strong> Managing Proof-of-Concept (POC) validation models, network performance evaluations, and range optimization configurations for modern enterprise Wi-Fi 6 hardware routing environments (e.g., Totolink architectures).</li>
     <li><strong>Firmware Lifecycle & Systems Hardening:</strong> Overseeing system firmware testing protocols, evaluating patch safety compliance, and performing system regression analysis prior to production deployments.</li>
     <li><strong>Enterprise Infrastructure Operations (Secondment):</strong> Deployed to the <em>Channels by STC</em> corporate environment as a Tier-2 Systems Support Engineer, managing infrastructure alert trees and resolving system queues.</li>
@@ -99,7 +50,7 @@ Welcome to my verified engineering and cloud infrastructure registry. This space
     <div class="job-date">February 2014 – February 2017</div>
   </div>
   <div class="job-company">LCC Saudi Arabia (A Tech Mahindra Company) | Riyadh, KSA</div>
-  <ul style="margin-top: 8px; padding-left: 20px; font-size: 14px;">
+  <ul style="margin-top: 10px; padding-left: 20px;">
     <li>Supervised infrastructure design allocations across multi-layered, complex corporate network environments across the KSA and Africa domains.</li>
     <li>Structured Service Level Agreements (SLAs) with technology providers, aligning core hardware provisioning with corporate continuity parameters.</li>
   </ul>
@@ -111,7 +62,7 @@ Welcome to my verified engineering and cloud infrastructure registry. This space
     <div class="job-date">February 2010 – February 2014</div>
   </div>
   <div class="job-company">LCC Saudi Arabia (A Tech Mahindra Company) | Riyadh, KSA</div>
-  <ul style="margin-top: 8px; padding-left: 20px; font-size: 14px;">
+  <ul style="margin-top: 10px; padding-left: 20px;">
     <li>Administered distributed production Windows and UNIX server infrastructure nodes, organizing backup plans to guarantee 99.9% environment availability.</li>
   </ul>
 </div>
@@ -122,7 +73,7 @@ Welcome to my verified engineering and cloud infrastructure registry. This space
     <div class="job-date">September 2005 – September 2009</div>
   </div>
   <div class="job-company">Citibank N.A. | Karachi, Pakistan</div>
-  <ul style="margin-top: 8px; padding-left: 20px; font-size: 14px;">
+  <ul style="margin-top: 10px; padding-left: 20px;">
     <li>Configured distributed bank databases, enterprise system application packages, and core branch network layouts within the bank's Technology Infrastructure Department.</li>
   </ul>
 </div>

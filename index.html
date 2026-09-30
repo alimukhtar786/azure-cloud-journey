@@ -2,53 +2,134 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Ali Mukhtar | Cloud Infrastructure Hub</title>
+  <title>Ali Mukhtar | Systems & Cloud Infrastructure Portfolio</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   
-  <!-- Premium Dark Developer Theme -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/dark.css">
+  <!-- Premium Light/Modern Corporate Theme -->
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/pure.css">
   
   <style>
     :root {
-      --theme-color: #00ff66; /* Terminal Neon Green Accent */
-      --base-background: #0d1117;
-      --sidebar-background: #161b22;
+      --theme-color: #0b5ed7; /* Professional Slate Blue */
+      --base-font-size: 15px;
     }
-    body { font-family: 'Courier New', Courier, monospace !important; color: #c9d1d9; }
-    .markdown-section { max-width: 900px; padding-top: 20px; }
-    .sidebar { background-color: #161b22 !important; border-right: 1px solid #30363d; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif !important;
+      color: #212529;
+      background-color: #ffffff;
+      line-height: 1.6;
+    }
+    .sidebar {
+      background-color: #f8f9fa !important;
+      border-right: 1px solid #dee2e6;
+    }
+    .markdown-section {
+      max-width: 850px;
+      padding: 30px 15px;
+    }
     
-    /* Sleek Tech Profile Box */
-    .tech-profile { text-align: center; padding: 25px 15px; border-bottom: 1px solid #30363d; }
-    .tech-profile img { width: 90px; height: 90px; border-radius: 50%; border: 2px solid #00ff66; box-shadow: 0 0 15px rgba(0,255,102,0.3); }
-    .tech-name { font-size: 15px; font-weight: bold; color: #ffffff; margin-top: 12px; font-family: monospace; }
-    .tech-status { font-size: 11px; color: #00ff66; margin-top: 4px; background: rgba(0,255,102,0.1); display: inline-block; padding: 2px 8px; border-radius: 4px; }
+    /* Elegant Sidebar Profile Card */
+    .profile-card {
+      text-align: center;
+      padding: 25px 15px;
+      border-bottom: 1px solid #e9ecef;
+      background: #ffffff;
+    }
+    .profile-card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid #0b5ed7;
+      object-fit: cover;
+    }
+    .profile-card h1 {
+      font-size: 16px;
+      font-weight: 700;
+      color: #1a1f2c;
+      margin: 12px 0 4px 0;
+    }
+    .profile-card p {
+      font-size: 12px;
+      color: #6c757d;
+      margin: 0;
+      font-weight: 500;
+    }
     
-    /* Interactive Terminal Widget Component */
-    .terminal-box { background: #161b22; border: 1px solid #30363d; border-radius: 6px; padding: 15px; font-family: monospace; box-shadow: 0 4px 12px rgba(0,0,0,0.5); margin: 20px 0; }
-    .terminal-header { display: flex; gap: 6px; margin-bottom: 10px; border-bottom: 1px solid #21262d; padding-bottom: 6px; }
-    .dot { width: 10px; height: 10px; border-radius: 50%; }
-    .dot-r { background: #ff5f56; } .dot-y { background: #ffbd2e; } .dot-g { background: #27c93f; }
-    .terminal-body { color: #58a6ff; font-size: 13px; line-height: 1.5; }
-    .t-green { color: #7ee787; } .t-white { color: #ffffff; } .t-gray { color: #8b949e; }
-    
-    /* Visual Anchor Metrics Badges */
-    .badge-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin: 20px 0; }
-    .metric-badge { background: #161b22; border: 1px solid #30363d; padding: 12px; border-radius: 6px; text-align: center; }
-    .metric-val { font-size: 20px; font-weight: bold; color: #00ff66; }
-    .metric-lbl { font-size: 10px; color: #8b949e; text-transform: uppercase; margin-top: 4px; }
+    /* Clean, Eye-Catching Key Info Grid */
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 15px;
+      margin: 25px 0;
+    }
+    .info-tile {
+      background: #f8f9fa;
+      border: 1px solid #e9ecef;
+      border-radius: 6px;
+      padding: 15px;
+      text-align: center;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.02);
+    }
+    .info-tile .value {
+      font-size: 18px;
+      font-weight: 700;
+      color: #0b5ed7;
+    }
+    .info-tile .label {
+      font-size: 11px;
+      color: #6c757d;
+      text-transform: uppercase;
+      font-weight: 600;
+      margin-top: 5px;
+      letter-spacing: 0.5px;
+    }
+
+    /* Professional Experience Highlights */
+    .job-card {
+      border-left: 3px solid #0b5ed7;
+      padding-left: 20px;
+      margin: 25px 0;
+    }
+    .job-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      flex-wrap: wrap;
+      margin-bottom: 8px;
+    }
+    .job-title {
+      font-size: 17px;
+      font-weight: 700;
+      color: #1a1f2c;
+    }
+    .job-company {
+      font-size: 14px;
+      font-weight: 600;
+      color: #495057;
+    }
+    .job-date {
+      font-size: 13px;
+      color: #6c757d;
+      font-weight: 500;
+    }
   </style>
 </head>
 <body>
-  <div id="app">Initializing Terminal Hub UI...</div>
+  <div id="app">Loading Portfolio Dashboard...</div>
   <script>
     window.$docsify = {
-      name: 'Infrastructure Hub',
-      repo: 'https://github.com',
+      name: 'Portfolio Hub',
+      repo: '',
       loadSidebar: true,
-      subMaxLevel: 1,
-      search: { maxAge: 86400000, paths: 'auto', placeholder: 'Search environment parameters...', noData: 'No entries found', depth: 2 }
+      subMaxLevel: 2,
+      search: {
+        maxAge: 86400000,
+        paths: 'auto',
+        placeholder: 'Search technical journals...',
+        noData: 'No matches found',
+        depth: 2
+      }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
